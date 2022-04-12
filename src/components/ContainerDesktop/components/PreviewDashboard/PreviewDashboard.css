@@ -1,0 +1,12 @@
+.previewDashboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 1rem;
+    width: 45vw;
+    height: 90vh;
+    overflow-y: scroll;
+    box-shadow: 0 0 18px 5px rgba(0, 0, 0, 0.38);
+}
+
