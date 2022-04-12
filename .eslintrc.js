@@ -29,6 +29,8 @@ module.exports = {
         extensions: ['.ts', '.tsx']
       }
     ],
+    'react/jsx-curly-brace-presence': 'off',
+    'react/function-component-definition': 'off',
     'import/extensions': [
       'error',
       'ignorePackages',
