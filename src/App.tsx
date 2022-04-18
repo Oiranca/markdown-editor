@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { ContainerDesktop } from './components/ContainerDesktop/ContainerDesktop';
+import { ContainerDesktop } from './components/ContainerDesktop/components/Container/ContainerDesktop';
 
 function App() {
   return (

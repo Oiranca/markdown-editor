@@ -1,7 +1,8 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
+    jest: true
   },
   extends: ['plugin:react/recommended', 'airbnb', 'plugin:import/typescript'],
   parser: '@typescript-eslint/parser',
@@ -29,6 +30,9 @@ module.exports = {
         extensions: ['.ts', '.tsx']
       }
     ],
+    'implicit-arrow-linebreak': 'off',
+    'arrow-body-style': 'off',
+    'no-unused-vars': 'off',
     'react/jsx-curly-brace-presence': 'off',
     'react/function-component-definition': 'off',
     'import/extensions': [
