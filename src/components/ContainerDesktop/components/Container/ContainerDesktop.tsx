@@ -13,7 +13,7 @@ export const ContainerDesktop = () => {
   };
 
   return (
-    <div className={'container'}>
+    <div className={'container'} data-testid={'container-element'}>
       <textarea className={'desktopDashboard'} onChange={onHandledText} value={text} />
       <div id={'previewDashboard'}>{previewText}</div>
     </div>
